@@ -56,6 +56,13 @@
                   </div>
 
                   <div data-mdb-input-init class="form-outline mb-4">
+                  <label class="form-label" for="form2Example11">Rol</label>
+                    <input type="text" name="name"id="form2Example11" class="form-control"
+                      placeholder="" />
+                    
+                  </div>
+
+                  <div data-mdb-input-init class="form-outline mb-4">
                   <label class="form-label" for="form2Example22">Contraseña</label>
                     <input type="password" name="password" id="form2Example22" class="form-control" />
                     
@@ -66,6 +73,7 @@
                     <input type="password" name="password_confirmation" id="form2Example22" class="form-control" />
                     
                   </div>
+                  
 
                   <div class="text-center pt-1 mb-5 pb-1">
                     <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">Registrarse</button>
@@ -74,7 +82,7 @@
 
                   <div class="d-flex align-items-center justify-content-center pb-4">
                     <p class="mb-0 me-2">Ir a login</p>
-                    <a  href="{{route('login')}}"  class="btn btn-outline-danger">Login</a>
+                    <a  href="{{route('home')}}"  class="btn btn-outline-danger">Login</a>
                   </div>
 
                 </form>
